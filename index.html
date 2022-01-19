@@ -7,12 +7,14 @@
       <link rel="stylesheet" href="styles/index.css">
       <title>Дмитрий Коровин</title>
       <script src="https://kit.fontawesome.com/2c26a73c4a.js" crossorigin="anonymous"></script>
+      <link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
+      <link type="image/png" rel="icon" href="favicon.png">
    </head>
    <body>
       <div class="wrapper">
          <header class="header">
             <div class="header__container">
-               <a href="#" class="header__logo">Дмитрий Коровин</a>
+               <a href="#" class="header__logo menu__link">Дмитрий Коровин</a>
                <div class="header__menu menu">
                   <nav class="menu__body">
                      <ul class="menu__list">
@@ -26,10 +28,10 @@
                            <a href="#portfolio" class="menu__link">Что я наделал</a>
                         </li>
                         <li>
-                           <a href="https://vk.com/korovin_dmitry" target="_blank"><i class="fab fa-vk" style="font-size: 18px;"></i></a>
+                           <a href="https://t.me/korovin_dmitry" target="_blank" class="menu__link"><i class="fab fa-telegram" style="font-size: 18px;"></i></a>
                         </li>
                         <li>
-                           <a href="https://github.com/korovindn" target="_blank"><i class="fab fa-github" style="font-size: 18px;"></i></a>
+                           <a href="https://github.com/korovindn" target="_blank" class="menu__link"><i class="fab fa-github" style="font-size: 18px;"></i></a>
                         </li>   
                      </ul>
                   </nav>
@@ -100,6 +102,22 @@
                      <h1>Что я наделал</h1>
                      <em>It ain't much, but it's honest work...</em>
                      <div class="page__section3__cards">
+                        <div class="page__section3__cards__item" style = "background-image: url(img/clickerio_bot.jpg);">
+                           <div class="page__section3__cards__item__content">
+                              <h2>Телеграм бот
+                                 <sup> 
+                                    <i class="fab fa-node-js"></i>
+                                 </sup>
+                              </h2>
+                              <p>
+                                 Телеграм бот-кликер с возможностью вывода
+                              </p>
+                              <div class="page__section3__cards__item__links">
+                                 <a href="https://github.com/korovindn/telegram_clicker_bot" target="_blank" class="menu__link"><i class="fab fa-github" ></i></a>
+                                 <a href="https://t.me/ClickerioBot?start" target="_blank" class="menu__link"><i class="fas fa-link"></i></a>
+                              </div>
+                           </div>
+                        </div>
                         <div class="page__section3__cards__item" style = "background-image: url(img/felosafs_online_editor.jpg);">
                            <div class="page__section3__cards__item__content">
                               <h2>Онлайн-редактор 
@@ -113,8 +131,8 @@
                                  Редактор для паблика фелосафы, позволяющий создавать мемы-цитаты по шаблону группы.
                               </p>
                               <div class="page__section3__cards__item__links">
-                                 <a href="https://github.com/korovindn/felosafs_online_editor" target="_blank"><i class="fab fa-github" ></i></a>
-                                 <a href="http://m99987lo.beget.tech/" target="_blank"><i class="fas fa-link"></i></a>
+                                 <a href="https://github.com/korovindn/felosafs_online_editor" target="_blank" class="menu__link"><i class="fab fa-github" ></i></a>
+                                 <a href="http://m99987lo.beget.tech/" target="_blank" class="menu__link"><i class="fas fa-link"></i></a>
                               </div>
                            </div>
                         </div>
@@ -129,8 +147,8 @@
                                  Бот для паблика фелосафы, позволяющий создавать мемы-цитаты по шаблону группы.
                               </p>
                               <div class="page__section3__cards__item__links">
-                                 <a href="https://github.com/korovindn/felosafs_bot" target="_blank"><i class="fab fa-github" ></i></a>
-                                 <a href="https://vk.me/felosafs" target="_blank"><i class="fas fa-link"></i></a>
+                                 <a href="https://github.com/korovindn/felosafs_bot" target="_blank" class="menu__link"><i class="fab fa-github" ></i></a>
+                                 <a href="https://vk.me/felosafs" target="_blank" class="menu__link"><i class="fas fa-link"></i></a>
                               </div>
                            </div>
                         </div>
@@ -143,10 +161,10 @@
                               </h2>
                               <p>
                                  Учебный проект в области компьютерного зрения. Модель алгоритма обработки изображения с бортовой камеры,
-                                 позволяющего вычислять координаты по известным меткам на ВПП в реальном времени.
+                                 позволяющего вычислять координаты в реальном времени.
                               </p>
                               <div class="page__section3__cards__item__links">
-                                 <a href="https://github.com/korovindn/CV_Landing" target="_blank"><i class="fab fa-github" ></i></a>
+                                 <a href="https://github.com/korovindn/CV_Landing" target="_blank" class="menu__link"><i class="fab fa-github" ></i></a>
                               </div>
                            </div>
                         </div>
@@ -162,7 +180,7 @@
                               </p>
                               <div class="page__section3__cards__item__links" >
                                  <i class="fas fa-lock"></i>
-                                 <a href="https://vk.com/app7670765_-200881989?section_type=public_r_app" target="_blank"><i class="fas fa-link"></i></a>
+                                 <a href="https://vk.com/app7670765_-200881989?section_type=public_r_app" class="menu__link" target="_blank"><i class="fas fa-link"></i></a>
                               </div>
                            </div>
                         </div>
@@ -178,13 +196,10 @@
                               Его сделал тоже я.
                               </p>
                               <div class="page__section3__cards__item__links" >
-                                 <a href="https://github.com/korovindn/portfolio" target="_blank"><i class="fab fa-github" ></i></a>
-                                 <a href="#"><i class="fas fa-link"></i></a>
+                                 <a href="https://github.com/korovindn/portfolio" class="menu__link" target="_blank"><i class="fab fa-github" ></i></a>
+                                 <a href="#" class="menu__link"><i class="fas fa-link"></i></a>
                               </div>
                            </div>
-                        </div>
-                        <div style="width: calc(33.333% - 13.4px);">
-
                         </div>
                      </div>
                   </div>

@@ -24,12 +24,12 @@ html {
     justify-content: space-between;
 }
 
-a{
+.menu__link{
     text-decoration: none;
     color: #fff;
 }
 
-a:hover {
+.menu__link:hover {
     color: #aaa;
 }
 
@@ -39,6 +39,7 @@ a:hover {
 }
 
 .menu__list{
+    display: flex;
     list-style: none;
 }
 
@@ -66,8 +67,7 @@ a:hover {
 
 .page__section1_title {
     font-weight: 800;
-    
-    font-size: 36px;
+    font-size: calc(28px + 44*(100vw - 320px) / (768 - 320));
 }
 
 .page__section2 {
@@ -173,21 +173,25 @@ a:hover {
 }
 
 @media (min-width: 768px){
-    .menu__list{
-        display: flex;
-    }
-    .menu__icon:before{
-        display: none;
-    }
     .menu__body{
         display: block;
     }
     .page__section1_title {
-        font-weight: 800;
         font-size: 72px;
     }
     .page__section3__cards__item{
-        width: calc(33.333% - 13.4px);
+        width: 49%;
     }
 }
 
+@media (min-width: 992px){
+    .page__section3__cards__item{
+        width: 32%;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        font-size: calc(12px + 4*(100vw - 320px) / (1200 - 320));
+    }
+}

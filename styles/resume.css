@@ -1,0 +1,83 @@
+.my_photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: url(../img/my_photo.jpg);
+    background-size: 170px;
+    background-position: center;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+.page__section1_title{
+    font-size: 3em;
+}
+.page__section1_flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in_text_link{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+
+.skills_list{
+    padding: 0;
+    margin: 30px 0 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills_list_item{
+    display: block;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 50vh;
+    margin-right: 10px;
+}
+
+.education{
+    width: 100%;
+    margin: 30px 0;
+}
+
+.edication_year{
+    width: 25%;
+}
+
+.edication_description{
+    width: 75%;
+}
+
+.education_description_content{
+    padding: 10px;
+}
+
+.soft_skills_list{
+    list-style: none;
+    margin-bottom: 150px;
+}
+
+.soft_skills_list_item{
+    margin-top: 10px;
+}
+
+.soft_skills_list_item:first-child{
+    margin-top: 20px;
+}
+
+@media (max-width: 767px){
+    .photo_container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .my_photo{
+        margin-right: 0;
+    }
+}
