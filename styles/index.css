@@ -40,6 +40,7 @@ html {
 
 .menu__list{
     display: flex;
+    justify-content: flex-end;
     list-style: none;
 }
 
@@ -92,6 +93,12 @@ html {
     position: relative;
     margin-bottom: 10px;
     border-radius: 10px;
+    transition: 1s ease;
+}
+
+.timeline ul li:hover {
+    padding: 20px;
+    width: 101%;
 }
 
 .timeline ul li:last-child {
@@ -187,6 +194,11 @@ html {
 @media (min-width: 992px){
     .page__section3__cards__item{
         width: 32%;
+        transition: 1s ease;
+    }
+
+    .page__section3__cards__item:hover{
+        width: 33%;
     }
 }
 

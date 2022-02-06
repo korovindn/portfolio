@@ -23,6 +23,13 @@
     border-bottom-color: rgba(0, 0, 0, 0.2);
 }
 
+.in_text_link-white{
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(256, 256, 256, 0.2);
+}
+
 .skills_list{
     padding: 0;
     margin: 30px 0 0;
@@ -58,9 +65,13 @@
     padding: 10px;
 }
 
+.education_description_list{
+    margin: 10px 0;
+}
+
+
 .soft_skills_list{
     list-style: none;
-    margin-bottom: 150px;
 }
 
 .soft_skills_list_item{
